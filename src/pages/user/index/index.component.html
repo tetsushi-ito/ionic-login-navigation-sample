@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      ユーザー
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      ユーザー
+    </ion-list-header>
+
+    <ion-item *ngFor="let user of users">
+      <ion-icon name="contact"
+                item-start
+                color="primary"></ion-icon>
+
+      <ion-label>{{user.name}}</ion-label>
+
+      <button ion-button
+              outline
+              item-end
+              (click)="onUserClicked(user)">詳細</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      記事
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      新着記事
+    </ion-list-header>
+
+    <ion-item *ngFor="let article of articles">
+      <ion-icon name="ionic"
+                item-start
+                color="primary"></ion-icon>
+
+      <ion-label>{{article.title}}</ion-label>
+
+      <button ion-button
+              outline
+              item-end
+              (click)="onArticleClicked(article)">読む</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
