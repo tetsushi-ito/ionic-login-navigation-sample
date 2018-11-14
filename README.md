@@ -1,11 +1,10 @@
-# ionic-tabs-navigation-best-practices
-IonicでTabsを使った画面遷移のベストプラクティス
+# ionic-login-navigation-sample
+Ionicでログイン機能を持つナビゲーションの実装例
 
 # How to run
 ```
-$ git clone https://github.com/tetsushi-ito/ionic-tabs-navigation-best-practices.git
-$ cd ionic-tabs-navigation-best-practices
+$ git clone https://github.com/tetsushi-ito/ionic-login-navigation-sample.git
+$ cd ionic-login-navigation-sample
 $ npm install
 $ ionic serve
 ```
-# ionic-login-navigation-sample
