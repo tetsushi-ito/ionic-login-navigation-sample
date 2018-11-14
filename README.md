@@ -8,3 +8,4 @@ $ cd ionic-tabs-navigation-best-practices
 $ npm install
 $ ionic serve
 ```
+# ionic-login-navigation-sample
